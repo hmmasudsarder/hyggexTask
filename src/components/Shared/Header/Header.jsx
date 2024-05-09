@@ -11,7 +11,7 @@ const Header = () => {
   ];
   const [open, setOpen] = useState(false);
   return (
-    <div className="shadow-sm w-full fixed top-0 left-0">
+    <div className="w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-3 md:px-20 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800 ">
           <img
