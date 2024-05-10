@@ -12,6 +12,7 @@ import { SlFrame } from "react-icons/sl";
 const Carousel = ({
   children: slides,
   autoSlide = false,
+  title,
   autoSlideInterval = 300,
 }) => {
   const [curr, setCurr] = useState(0);
@@ -24,7 +25,7 @@ const Carousel = ({
     const slideInterval = setInterval(next, autoSlideInterval);
     return () => clearInterval(slideInterval);
   }, [autoSlide, autoSlideInterval, next]);
-  console.log(slides);
+  console.log(slides, title);
   return (
     <div className="overflow-hidden relative mt-4">
       <div className="rounded-3xl">

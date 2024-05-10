@@ -12,7 +12,7 @@ To run this application locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/webdevratul/-Hospital-Labratory-Invoice.git
+   git clone https://github.com/hmmasudsarder/hyggexTask.git
    ```
 
 2. Navigate to the project directory:

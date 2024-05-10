@@ -1,7 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 import According from "../According/According";
 import CarouselImg from "../Carousel/CarouselImg";
 import Path from "./Path";
+import "./Home.css";
 import { useState } from "react";
 import Modal from "../Shared/Header/Modal/Modal";
 import { FaRegFaceSadCry } from "react-icons/fa6";
@@ -15,7 +16,7 @@ const Home = () => {
       <Path />
       {/* secound Title  */}
       <div className="mt-14 w-11/12 md:w-8/12 mx-auto lg:ml-[75px]">
-        <div className="text-3xl lg:flex gap-1 font-bold text-center text-linear text-blue-700">
+        <div className="text-4xl lg:flex gap-1 font-bold text-center text-linear text-gradient font-[Montserrat]">
           Relations and Functions <h1 className="">( Mathematics )</h1>{" "}
         </div>
       </div>
@@ -66,7 +67,7 @@ const Home = () => {
         <div className="lg:-mr-64">
           <div className="flex items-center gap-2 justify-center cursor-pointer" onClick={() => setOpen(true)}>
             <FiPlus className="lg:text-4xl rounded-full text-white bg-gradient-to-r from-blue-600 to-blue-900" />
-            <h1  className="lg:text-3xl font-bold rounded-full text-blue-800 text-gradient-to-r from-blue-600 to-blue-900">
+            <h1  className="lg:text-3xl font-bold rounded-full text-gradient">
               Create Flashcard
             </h1>
           </div>
@@ -87,7 +88,7 @@ const Home = () => {
       </div>
 
       {/* FAQ COMPONENTS */}
-      <h1 className="text-4xl font-bold text-blue-900 text-center lg:text-start lg:mx-16 mt-8 font-[Inter] ">
+      <h1 className="text-4xl font-bold text-gradient text-center lg:text-start lg:mx-16 mt-8 font-[Inter] ">
         FAQ
       </h1>
       <div className="mb-20">
