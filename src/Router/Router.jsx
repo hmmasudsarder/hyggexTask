@@ -14,7 +14,11 @@ const Router = createBrowserRouter([
                 element: <Home/>
             }
         ]
-    }
+    },
+    // {
+    //     path: '/',
+    //     element: 
+    // }
 ])
 
 export default Router;
