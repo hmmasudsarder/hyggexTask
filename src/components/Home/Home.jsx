@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       {/* carousel Images slider */}
       <div className="w-full lg:ml-44">
-        <div className="flex items-center justify-center gap-16 mt-16">
+        <div className="flex items-center justify-center gap-5 lg:gap-16 mt-4 lg:mt-16">
           <Link className={"border-b-2 text-lg font-semibold"} to={"/"}>
             Study
           </Link>
@@ -39,7 +39,7 @@ const Home = () => {
           </Link>
         </div>
         <Modal open={open} onClose={() => setOpen(false)}>
-          <div className="text-center w-[500px] h-[300px] ml-20 mt-5">
+          <div className="text-center lg:w-[500px] lg:h-[300px] ml-20 mt-5">
             <FaRegFaceSadCry className="text-9xl mx-auto text-red-400" />
             <div className="mx-auto my-4 w-64 space-y-5">
               <h2 className="text-xl font-black text-gray-800">
@@ -63,15 +63,15 @@ const Home = () => {
             alt=""
           />
         </div>
-        <div className="-mr-64">
+        <div className="lg:-mr-64">
           <div className="flex items-center gap-2 justify-center cursor-pointer" onClick={() => setOpen(true)}>
-            <FiPlus className="text-4xl rounded-full text-white bg-gradient-to-r from-blue-600 to-blue-900" />
-            <h1  className="text-3xl font-bold rounded-full text-blue-800 text-gradient-to-r from-blue-600 to-blue-900">
+            <FiPlus className="lg:text-4xl rounded-full text-white bg-gradient-to-r from-blue-600 to-blue-900" />
+            <h1  className="lg:text-3xl font-bold rounded-full text-blue-800 text-gradient-to-r from-blue-600 to-blue-900">
               Create Flashcard
             </h1>
           </div>
           <Modal open={open} onClose={() => setOpen(false)}>
-            <div className="text-center w-[500px] h-[300px] ml-20 mt-5">
+            <div className="text-center lg:w-[500px] lg:h-[300px] ml-20 mt-5">
               <FaRegFaceSadCry className="text-9xl mx-auto text-red-400" />
               <div className="mx-auto my-4 w-64 space-y-5">
                 <h2 className="text-xl font-extrabold text-blue-800">

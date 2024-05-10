@@ -1,8 +1,46 @@
-# React + Vite
+# hyggex-
+### Prerequisites
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Before running the project, ensure that you have the following prerequisites installed on your machine:
 
-Currently, two official plugins are available:
+- [Node.js](https://nodejs.org/): Make sure you have Node.js installed, as it includes npm (Node Package Manager) which is used to manage project dependencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/webdevratul/-Hospital-Labratory-Invoice.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd hyggex-ts
+   ```
+
+3. Install dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Visit Local [http://localhost:5173/] to view the application.
+6. Visit Live [https://hyggex-task-1xipi5gn4-masuds-projects-c3df1a1c.vercel.app/] to view the application.
+
+## Technologies Used
+
+- React.js
+- JavaScript
+
+---
+
+
